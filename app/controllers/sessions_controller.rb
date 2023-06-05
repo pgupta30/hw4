@@ -3,7 +3,8 @@ class SessionsController < ApplicationController
   end
 
   def create
-  end
+  
+    end
 
   def destroy
   end
