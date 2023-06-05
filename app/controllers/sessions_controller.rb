@@ -13,7 +13,7 @@ class SessionsController < ApplicationController
         redirect_to "/places"
       else
         flash["notice"] = "Nope."
-        redirect_to "sessions/new"
+        redirect_to "/sessions/new"
       end
 
     else
