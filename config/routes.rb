@@ -8,4 +8,5 @@ Rails.application.routes.draw do
   get "/login", :controller => "sessions", :action => "new"
   get "/logout", :controller => "sessions", :action => "destroy"
 
+  get "/", :controller => "marketing_pages", :action => "home"
 end
